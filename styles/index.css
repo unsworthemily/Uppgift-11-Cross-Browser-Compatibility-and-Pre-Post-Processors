@@ -15,5 +15,38 @@ body {
 .nav__link
 
 /*main */
+<main class="main">
+        <section class="main-info">
+            <div class="main-container">
+                <div class="container-info">
+                    <h2 class="main-title"> Shooting Stars</h2>
+                    <p class="main-text">
+                        Hello, I’m Bakhtiyar Sattarov,product designer with experiencein studios and startups
+                    </p>  
+                </div>
+                <div class="container-quote">
+                    <p class="main-quote">
 
+                    class="grid-images"></section>
+            <div class="grid-container">
+                <div class="image-1"><img src="images/img1.png" alt=""></div>
+                <div class="image-2"><img src="images/img2.png" alt=""></div>
+                <div class="image-3"><img src="images/img3.png" alt=""></div>
+                <div class="image-4"><img src="images/img4.png" alt=""></div>
+                <div class="image-5"><img src="images/img5.png" alt=""></div>
+                <div class="image-6"><img src="images/img6.png" alt=""></div>
+                <div class="image-7"><img src="images/img7.png" alt=""></div>
+                <div class="image-8"><img src="images/img8.png" alt=""></div>
+                <div class="image-9"><img src="images/img9.png" alt=""></div>
+                <div class="image-10"><img src="images/img10.png" alt=""></div>
+                <div class="image-11"><img src="images/img11.png" alt=""></div>
+                <div class="image-12
 /*footer*/
+.footer
+.nav-footer
+.nav-footer-left
+.logo-footer
+.nav-footer-right
+.nav_list-footer
+.nav_link-footer 
+.social-footer
