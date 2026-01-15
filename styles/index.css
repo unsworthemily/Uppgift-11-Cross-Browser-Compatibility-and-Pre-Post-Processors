@@ -48,30 +48,114 @@ body {
 }
 
 /*main */
-.main{}
-.main-info{}
-.main-container{}
+.main{
+    max-width: 1110px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.main-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.main-container{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/*behövs denna*/
 .container-info{}
-.main-title{}
-.main-text{}
 
-.container-quote{}
-.main-quote{}
+.main-title{ 
+    color: #4A4FF2;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.42px;
+}
+.main-text{ max-width: 635px;
+    width: 100%;
+    color: #111111;
+    font-size: 40px;
+    font-weight: bold;
+}
 
-.grid-images{}
-.grid-container{}
-.image-1{}
-.image-2{}
-.image-3{}
-.image-4{}
-.image-5{}
-.image-6{}
-.image-7{}
-.image-8{}
-.image-9{}
-.image-10{}
-.image-11{}
-.image-12{}
+/*productdesigner?*/
+.product-designer{
+    color: #4A4FF2;
+}
+.container-quote{
+    padding-left: 20px;
+    margin-right: 50px;
+}
+.main-quote{
+    color: #111111;
+    font-size: 18px;
+    font-style: italic;
+    align-self: flex-end;
+}
+
+.grid-images{
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.grid-container{
+     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9 1fr);
+    grid-template-rows: repeat(32 1fr);
+    grid-gap: 10px; 
+}
+/* ändra här placering!!GRID */
+
+.image-1-column-left{
+    grid-row: 1/7;
+}
+.image-2-column-middle{
+    grid-row: 1/6;
+}
+.image-3-column-right{
+    grid-row: 1/10;
+}
+.image-4-column-left{
+    grid-row: 7/14;
+}
+.image-5-column-middle{
+    grid-row: 6/12;
+}
+.image-6-column-right{
+    grid-row: 10/16;
+}
+.image-7-column-left{
+    grid-row: 14/21;
+}
+.image-8-column-middle{
+    grid-row: 12/20;
+}
+.image-9-column-right{
+    grid-row: 16/24;
+}
+.image-10-column-left{
+    grid-row: 21/29;
+}
+.image-11-column-middle{
+    grid-row: 20/29;
+}
+.image-12-column-right{
+    grid-row: 24/29;
+}
+
 
 .awards{}
 .awards-container{}
