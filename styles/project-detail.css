@@ -6,40 +6,198 @@ body {
     flex-direction: column;
 }
 /*header*/
-.header
-.nav
-.nav-left
-.logo
-.nav-right
-.nav-list
-.nav-link
+.header {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.nav{
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-left{
+    margin-top: 20px;
+}
+.logo{  
+    max-width: 90px;
+    width: 100%;
+}
+.nav-right{ 
+    margin-top: 20px;
+}
+.nav-list{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.nav-link{
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
 
 /*main*/
-.main-container
-.main
-.main-info
-.main-title
-.main-text
-.main-list
-.main-list-title
-.main-list-item
-                   
-.img13
-.secondery-info
-.secondary-img-container
-.secondary-img-14
-.img14
-.secondary-img-15
-.img15
-.secondary-img-16
-.img16
+.main-container{
+    max-width: 1110px;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 110px;
+    padding: 0 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main-info{
+    max-width: 645px;
+    width: 100%;
+}
+.main-title{
+    max-width: 475px;
+    width: 100%;
+    color: #111111;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.main-text{
+    color: #111111;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.main-list{
+    margin-top: 38px;
+    max-width: 340px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+.main-list-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #11111183;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.main-list-item{
+     font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.img13{
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+.secondary-info{
+     max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 45px;
+    padding: 0 20px;
+    color: #111111b2;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.secondary-img-container{
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    padding: 0 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.secondary-img-14{
+    max-width: 350px;
+    width: 100%;
+}
+.img14{
+     width: 100%;
+    height: 100%;
+}
+.secondary-img-15{
+    max-width: 350px;
+    width: 100%;
+}
+.img15{
+    width: 100%;
+    height: 100%;
+}
+.secondary-img-16{
+    max-width: 350px;
+    width: 100%;
+}
+.img16{
+    width: 100%;
+    height: 100%;
+}
 
 /*footer*/
-.footer
-.nav-footer
-.nav-footer-left
-.logo-footer
-.nav-footer-right
-.nav_list-footer
-.nav_link-footer 
-.social-footer
+.footer{ 
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nav-footer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-footer-left{
+    margin-top: 20px;
+}    
+.logo-footer{
+    max-width: 90px;
+    width: 100%;
+}
+.nav-footer-right{
+     margin-top: 20px;
+}    
+
+.nav-list-footer{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;}
+.nav-link-footer{
+     color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.social-footer{
+    max-width: 95px;
+    width: 100%;
+}

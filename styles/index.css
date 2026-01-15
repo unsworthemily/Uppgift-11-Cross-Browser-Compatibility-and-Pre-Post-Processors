@@ -6,71 +6,140 @@ body {
     flex-direction: column;
 }
 /* header */
-.header
-.nav
-.nav-left
-.logo
-.nav-right
-.nav__list
-.nav__link
+.header {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.nav{
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-left{
+    margin-top: 20px;
+}
+.logo{  
+    max-width: 90px;
+    width: 100%;
+}
+.nav-right{ 
+    margin-top: 20px;
+}
+.nav-list{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.nav-link{
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
 
 /*main */
-.main
-.main-info
-.main-container
-.container-info
-.main-title
-.main-text
-                       
-.container-quote
-.main-quote
+.main{}
+.main-info{}
+.main-container{}
+.container-info{}
+.main-title{}
+.main-text{}
 
-.grid-images
-.grid-container
-.image-1
-.image-2
-.image-3
-.image-4
-.image-5
-.image-6
-.image-7
-.image-8
-.image-9
-.image-10
-.image-11
-.image-12
+.container-quote{}
+.main-quote{}
 
-.awwards
-.awwards-container
-.grid-awards
-.awards
-.awards-site
-.awards-ui-kit
-                        
-.awards-date
-.awards-best
-.awards-template
-                        
+.grid-images{}
+.grid-container{}
+.image-1{}
+.image-2{}
+.image-3{}
+.image-4{}
+.image-5{}
+.image-6{}
+.image-7{}
+.image-8{}
+.image-9{}
+.image-10{}
+.image-11{}
+.image-12{}
 
-.css-design-awards
-.css-design-awards-container
-.grid-design-awards
-.design
-.design-site
-.design-ui-kit
-                        
-.design-date
-.design-best
-.design-template
-                        
-.design-date-two
+.awards{}
+.awards-container{}
+.grid-awards{}
+.awards-site{}
+.awards-ui-kit{}
+
+.awards-date{}
+.awards-best{}
+.awards-template{}
+
+.css-design-awards{}
+.css-design-awards-container{}
+.grid-design-awards{}
+.design{}
+.design-site{}
+.design-ui-kit{}
+
+.design-date{}
+.design-best{}
+.design-template{}
+
+.design-date-two{}
 
 /*footer*/
-.footer
-.nav-footer
-.nav-footer-left
-.logo-footer
-.nav-footer-right
-.nav_list-footer
-.nav_link-footer 
-.social-footer
+.footer{ 
+    max-width: 1110px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px; 
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nav-footer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-footer-left{
+    margin-top: 20px;
+}    
+.logo-footer{
+    max-width: 90px;
+    width: 100%;
+}
+.nav-footer-right{
+     margin-top: 20px;
+}    
+
+.nav-list-footer{
+    width: 100%;
+    list-style: none;
+    display: inline-flex;}
+.nav-link-footer{
+     color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.social-footer{
+    max-width: 95px;
+    width: 100%;
+}
