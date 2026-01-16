@@ -1,28 +1,21 @@
 body {
-    font-family: 'Muli', sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+    font-family: "Mulish", sans-serif;
 }
 /* header */
 .header {
-    max-width: 1110px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
 }
-.nav{
+
+.nav {
     max-width: 1110px;
     width: 100%;
-    box-sizing: border-box;
     margin-top: 60px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 .nav-left{
     margin-top: 20px;
@@ -57,30 +50,6 @@ body {
     border-radius: 5px;
     color: #4A4FF2;
 }
-
-/*main */
-.main{
-    max-width: 1110px;
-    width: 100%;
-    overflow-x: hidden;
-}
-.main-info{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-top: 100px;
-    padding: 0 20px;
-}
-.main-container{
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
 /*main*/
 .main-container{
     max-width: 1110px;
@@ -115,12 +84,10 @@ body {
     line-height: 1.6;
 }
 .main-list{
-    margin-top: 38px;
     max-width: 340px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
 }
 .main-list-title{
     font-size: 18px;
@@ -136,10 +103,10 @@ body {
 }
 
 .img13{
+    display: block;
     max-width: 1110px;
     width: 100%;
-    box-sizing: border-box;
-    margin-top: 60px;
+    margin: 60px auto 0;
     padding: 0 20px;
 }
 .secondary-info{
@@ -154,14 +121,11 @@ body {
 }
 .secondary-img-container{
     max-width: 1110px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 40px;
+    margin: 40px auto 0;
     padding: 0 20px;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    gap: 30px;
 }
 .secondary-img-14{
     max-width: 350px;
@@ -190,24 +154,17 @@ body {
 
 /*footer*/
 .footer{ 
-    max-width: 1110px;
     width: 100%;
-    box-sizing: border-box;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0 20px; 
     border-top: 1px solid black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-top: 80px;
 }
 .nav-footer{
-    margin-top: 50px;
-    width: 100%;
+    max-width: 1110px;
+    margin: 50px auto;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 .nav-footer-left{
     margin-top: 20px;
