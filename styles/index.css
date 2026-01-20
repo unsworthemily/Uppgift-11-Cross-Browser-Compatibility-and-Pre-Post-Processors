@@ -80,9 +80,6 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
-/*behövs denna*/
-.container-info{}
-
 .main-title{ 
     color: #4A4FF2;
     font-size: 22px;
@@ -186,22 +183,21 @@ body {
     font-weight: 700;
     line-height: 1.8;
     color: #111;
-    max-width: 630px;
+    max-width: 600px;
 }
 .service-text{
     margin: 0;  
 }
 .service-list{
     display: flex;
-    justify-content: flex-end;
-    gap: 60px;
+    justify-content: flex-start;
+    gap: 40px;
 }
 .service-list-middle{
     box-sizing: border-box;
     list-style: none;
     font-size: 18px;
     color: #111111;  
-    margin-left: 50px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -213,7 +209,6 @@ body {
     list-style: none;
     font-size: 18px;
     color: #111111;
-    margin-left: 50px; 
     line-height: 1.5; 
     display: flex;
     justify-content: space-around;
@@ -282,7 +277,6 @@ body {
     text-align: end;
     margin-top: 38px;
 }
-.css-design-awards{}
 .css-design-awards-container{
     max-width: 1110px;
     width: 100%;
@@ -345,63 +339,66 @@ body {
     text-align: end;
     margin-top: 38px;
 }
+.erased{
+    color: transparent;
+}
 /*  Footer  */
 .footer{
-  width: 100%;
-  margin-top: 70px;
-  padding: 28px 0;
+    width: 100%;
+    margin-top: 70px;
+    padding: 28px 0;
 }
 /* footer nav */
 .nav-footer{
-  max-width: 1110px;
-  margin: 0 auto;
-  padding: 22px 20px 0;
-  border-top: 1px solid #111;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 22px 20px 0;
+    border-top: 1px solid #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* vänster */
 .logo-footer{
-  height: 20px;
-  width: auto;
-  display: block;
+    height: 20px;
+    width: auto;
+    display: block;
 }
 /* höger: links + social */
 .nav-footer-right{
-  display: flex;
-  align-items: center;
-  gap: 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
 }
 .nav-list-footer{
-  display: flex;
-  flex-direction: row;     
-  align-items: center;
-  gap: 32px;
-  list-style: none;
-  margin: 0;               
-  padding: 0;             
-  width: auto;             
+    display: flex;
+    flex-direction: row;     
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    margin: 0;               
+    padding: 0;             
+    width: auto;             
 }
 .nav-link-footer{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 /* länkar */
 .nav-link-footer a{
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: .08em;
-  text-decoration: none;
-  color: #111;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-decoration: none;
+    color: #111;
 }
 .nav-link-footer a:hover{
-  color: #4A4FF2;
+    color: #4A4FF2;
 }
 /* social icons */
 .social-footer{
-  height: 16px;
-  width: auto;
-  display: block;       
-  opacity: .85;
+    height: 16px;
+    width: auto;
+    display: block;       
+    opacity: .85;
 }
