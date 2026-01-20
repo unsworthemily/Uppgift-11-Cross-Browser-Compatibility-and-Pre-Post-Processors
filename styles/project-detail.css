@@ -52,8 +52,6 @@ body {
 }
 
 .nav-link>a:hover{
-    background-color: #111111;
-    border-radius: 5px;
     color: #4A4FF2;
 }
 /*main*/
@@ -73,7 +71,6 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
 }
-
 .main-info{
     max-width: 645px;
     width: 100%;
@@ -110,7 +107,6 @@ body {
     color: #111111;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 .img13{
     display: block;
     max-width: 1110px;
@@ -119,7 +115,7 @@ body {
     padding: 0 20px;
 }
 .secondary-info{
-     max-width: 1110px;
+    max-width: 1110px;
     width: 100%;
     box-sizing: border-box;
     margin-top: 45px;
@@ -172,7 +168,6 @@ body {
     max-width: 1110px;
     margin: 0 auto;
     padding: 22px 20px 0;
-    border-top: 1px solid #111;
     display: flex;
     justify-content: space-between;
     align-items: center;

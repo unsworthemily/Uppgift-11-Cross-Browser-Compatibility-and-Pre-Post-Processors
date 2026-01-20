@@ -52,10 +52,7 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
-
 .nav-link>a:hover{
-    background-color: #111111;
-    border-radius: 5px;
     color: #4A4FF2;
 }
 /*main */

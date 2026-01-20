@@ -1,103 +1,205 @@
-body {
-    font-family: "Mulish", sans-serif; }
+/* contact.css */
 
+body{
+  font-family: "Mulish", sans-serif;
+  color: #111111;
 }
-/* header */
-.header {
-    max-width: 1110px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; 
+
+/* Header */
+.header{
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .nav{
-    max-width: 1110px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 60px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  max-width: 1110px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 60px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.nav-left{
-    margin-top: 20px;
+
+.nav-left{ 
+    margin-top: 20px; 
 }
 .nav-right{ 
-    margin-top: 20px;
+    margin-top: 20px; 
 }
-.logo{  
-    max-width: 90px;
-    width: 100%;
+
+.logo{
+  max-width: 90px;
+  width: 100%;
 }
+
 .nav-list{
-    width: 100%;
-    list-style: none;
-    display: inline-flex;
-    justify-content: flex-end;
+  width: 100%;
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
 }
+
 .nav-link{
-    list-style: none;
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-right: 30px;
+  list-style: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-right: 30px;
 }
+
+.nav-link:last-child{ 
+    margin-right: 0; 
+}
+
 .nav-link>a{
-    color: #111111;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
+  color: #111111;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 .nav-link>a:hover{
-    background-color: #111111;
-    border-radius: 5px;
-    color: #4A4FF2;
+  color: #4A4FF2;
 }
-/*main */
-.main{
-    max-width: 1110px;
-    width: 100%;
-    overflow-x: hidden;
-}
-.main-info{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin-top: 100px;
-    padding: 0 20px;
-}
-.main-container{
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
+
 /*main*/
-<main class="main-container">
-        <section class="main">
-            <div class="main-info">
-                <h2 class="main-info-title">Full set of great features to make your product fresh</h2>
-                <p class="main-info-text">
-                    Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.
-                </p>  
-            </div>
-            <div class="main-form-container">
-                <form class="main-form" action="">
-                    <label class="label" for="name">Name</label>
-                    <input class="input" type="text" id="name" required autofocus placeholder="Name Nameson">
-                    <label class="label" for="email">Email</label>
-                    <input class="input" type="email" required placeholder="email@email.com">
-                    <label class="label" for="message">Message</label>
-                    <textarea class="input" name="message" id="message" cols="30" rows="1" placeholder="Your message here" required></textarea>
-                    <button class="button" type="submit">Submit</button>
-                </form>
-            </div>
-        </section>
-    </main>
+
+.contact{
+  margin-top: 110px;
+}
+
+.contact-container{
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Top: två kolumner */
+.contact-top{
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 90px;
+  align-items: stretch;
+}
+
+/* Vänster text */
+.contact-left{
+  max-width: 520px;
+}
+
+.contact-title{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin: 0 0 18px 0;
+  max-width: 460px;
+}
+
+.contact-text{
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: .75;
+  margin: 0;
+  max-width: 420px;
+}
+
+/* Höger form */
+.contact-right{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form{
+  width: 100%;
+  max-width: 430px;
+  margin-top: 10px;
+}
+
+/* Field: label + underline input */
+.field{
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.label{
+  font-size: 16px;
+  font-weight: 700;
+  opacity: .7;
+  margin: 0;
+}
+
+/* underline input stil */
+.input{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111111;
+  background: transparent;
+  outline: none;
+}
+
+.input.underline{
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.18);
+  padding: 6px 0 8px 0;
+  border-radius: 0;
+}
+
+.input.underline:focus{
+  border-bottom-color: rgba(74,79,242,.85);
+}
+
+textarea.input.underline{
+  min-height: 34px; 
+  resize: none;
+}
+
+.button{
+  width: 125px;
+  padding: 14px 0;
+  border: none;
+  border-radius: 0;
+  background: #4A4FF2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button:hover{
+  filter: brightness(.95);
+}
+
+/* Map: fullbredd under */
+.contact-map{
+  margin-top: 80px;
+}
+
+.map{
+  width: 100%;
+  min-height: 420px;
+}
+
+.map img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 /*  Footer  */
 .footer{
@@ -110,7 +212,6 @@ body {
     max-width: 1110px;
     margin: 0 auto;
     padding: 22px 20px 0;
-    border-top: 1px solid #111;
     display: flex;
     justify-content: space-between;
     align-items: center;
